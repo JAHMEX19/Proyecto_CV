@@ -97,13 +97,40 @@ nav{
    
 
 }
-.menu a{
+.menu a {
 
     width: 150px;
-    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-     font-size: 1.25rem;
-     text-align: center;
-   
+    font-size: 1.25rem;
+    text-align: center;
+    transition-duration: 1000ms;
+    border: none;
+    color: white;
+
+}
+
+.btn_info:hover{
+    
+    transition-duration: 1000ms;
+    color: rgb(212, 131, 24);
+
+}
+.btn_edu:hover{
+    
+    transition-duration: 1000ms;
+    color: rgb(212, 131, 24);
+
+}
+.btn_skills:hover{
+    
+    transition-duration: 1000ms;
+    color: rgb(212, 131, 24);
+
+}
+.btn_exp:hover{
+    
+    transition-duration: 1000ms;
+    color: rgb(212, 131, 24);
+
 }
 
