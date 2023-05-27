@@ -21,21 +21,22 @@ body {
 
     max-width: 95vw;
 
-    border: 1px solid white;
+   
     margin: auto;
     font-size: 25px;
 
     display: flex;
     flex-direction: column;
+    
 }
 
 header {
     width: 100%;
-    height: 50vh;
+    height: 100%;
     
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgba(245, 245, 245, 0.13);
+    background-color: rgba(46, 88, 167, 0.548);
     border-radius: 50px;
     padding-top: 10px;
           
@@ -53,7 +54,7 @@ header {
     min-width: 600px;
     text-align: center;
 
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 
 }
 .profile_descripcion strong{
@@ -135,5 +136,68 @@ nav{
     transition-duration: 1000ms;
     color: rgb(212, 131, 24);
     font-size: 1.5rem;
+}
+
+main{
+
+    width: 100%;
+   
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(46, 88, 167, 0.548);
+    border-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+#sec_info{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+   
+}
+
+#sec_info img{
+    width: 180px;
+    
+}
+
+.informacion_contacto{
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+
+}
+
+.subtitle{
+color: white;
+text-align: center;
+margin-top: 15px;
+margin: 15px;
+}
+
+.tarjeta_contacto{
+
+    width: 300px;
+    height: 300px;
+
+    background-color: rgba(2, 20, 53, 0.336);
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1rem;
+
 }
 
