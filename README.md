@@ -2,7 +2,7 @@
 
 Diseño y desarrollo de página de CV con HTML y CSS 
 
-Este repositorio contiene el proyecto Tu primer CV en web
+Este repositorio contiene el proyecto  "Tu primer CV en web"
 
 Habilidades a practicar : HTML Y CSS
 
