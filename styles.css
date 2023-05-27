@@ -35,6 +35,9 @@ header {
     
     margin-top: 15px;
     margin-bottom: 15px;
+    background-color: rgba(245, 245, 245, 0.13);
+    border-radius: 50px;
+    padding-top: 10px;
           
 }
 
@@ -113,24 +116,24 @@ nav{
     
     transition-duration: 1000ms;
     color: rgb(212, 131, 24);
-
+    font-size: 1.5rem;
 }
 .btn_edu:hover{
     
     transition-duration: 1000ms;
     color: rgb(212, 131, 24);
-
+    font-size: 1.5rem;
 }
 .btn_skills:hover{
     
     transition-duration: 1000ms;
     color: rgb(212, 131, 24);
-
+    font-size: 1.5rem;
 }
 .btn_exp:hover{
     
     transition-duration: 1000ms;
     color: rgb(212, 131, 24);
-
+    font-size: 1.5rem;
 }
 
