@@ -144,7 +144,6 @@ main{
    
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgba(46, 88, 167, 0.548);
     border-radius: 50px;
     
     display: flex;
@@ -158,12 +157,16 @@ main{
   
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
     padding-top: 20px;
-    padding-bottom: 20px;
-  
-   
+    padding-bottom: 30px;
+    background-color: rgba(46, 88, 167, 0.548);
+    border-radius: 25px;
+
+    width: 100%;
+    height: 550px;
+     margin-bottom: 25px;
 }
 
 #sec_info img{
@@ -181,8 +184,8 @@ text-align: center;
 .subtitle{
 color: white;
 text-align: center;
-margin-top: 15px;
-margin: 15px;
+margin-top: 1px;
+margin: 5px;
 }
 
 .tarjeta_contacto{
@@ -190,14 +193,60 @@ margin: 15px;
     width: 300px;
     height: 300px;
 
-    background-color: rgba(2, 20, 53, 0.336);
+    background-color: rgba(122, 151, 206, 0.336);
     border-radius: 25px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     color: white;
-    font-size: 1rem;
+    font-size: medium
+
+}
+#sec_edu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(46, 88, 167, 0.548);
+    border-radius: 25px;
+
+    width: 100%;
+    height: 550px;
+    margin-bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
 }
 
+.informacion_edu{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.item_edu{
+
+    width: 350px;
+    height: 350px;
+
+    background-color: rgba(122, 151, 206, 0.336);
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+
+    font-size: medium;
+
+}
+
+.item_edu img{
+
+    width: 180px;
+    border-radius: 100px;
+    margin-top: 25px;
+}
