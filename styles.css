@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 body {
@@ -13,13 +13,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-    width:100%;
-    height: 100vh;
-    
 
-    margin:10px 0px 10px 0px;
-   
+    width: 100%;
+    height: 100vh;
+
+
+    margin: 10px 0px 10px 0px;
+
     font-size: 25px;
 
     display: flex;
@@ -53,7 +53,7 @@ header {
 .profile_descripcion {
 
     width: 65vw;
-    
+
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
@@ -87,7 +87,7 @@ h3 {
 
 nav {
     width: auto;
-    
+
 
     border-radius: 25px;
     color: white;
@@ -98,19 +98,19 @@ nav {
 
     display: flex;
     justify-content: space-evenly;
-    
-    
+
+
 
 }
 
 .menu {
     width: 80vw;
-    
-   
+
+
     display: flex;
     justify-content: space-evenly;
-    
-   
+
+
 }
 
 .menu a {
@@ -137,10 +137,10 @@ nav {
     width: 200px;
 }
 
-#btn_inicio{
-width: 50px;
-display: inline-block;
-background-color: white;
+#btn_inicio {
+    width: 50px;
+    display: inline-block;
+    background-color: white;
 }
 
 main {
@@ -202,14 +202,15 @@ main {
     color: white;
     font-size: 1rem;
     transition-duration: 1000ms;
-    
+
 
 }
-.tarjeta_contacto a{
 
-   text-decoration: none;
-   color: white;
-    
+.tarjeta_contacto a {
+
+    text-decoration: none;
+    color: white;
+
 
 }
 
@@ -324,7 +325,7 @@ main {
     width: 80px;
     border-radius: 15px;
     margin-top: 25px;
-    
+
 }
 
 #sec_exp {
@@ -362,7 +363,7 @@ main {
     background-color: rgba(122, 151, 206, 0.336);
 
     width: 60%;
-   
+
 
     margin-bottom: 15px;
     padding-top: 15px;
@@ -372,22 +373,22 @@ main {
     font-size: 1rem;
     border-radius: 25px;
     color: white;
-   
+
 }
 
 .contenido_exp {
-    width:auto;
+    width: auto;
     max-width: 550PX;
 }
 
-footer{
+footer {
     width: 100%;
-    
+
     padding: 10px 10px 10px 10px;
-    color:white;
+    color: white;
     background-color: rgba(46, 88, 167, 0.548);
     border-radius: 25px;
-  
+
 }
 
 @media screen and (max-width:1100px) {
@@ -411,18 +412,19 @@ footer{
 
         width: 150px;
         height: 150px;
-       font-size: .6rem;
-    
+        font-size: .6rem;
+
     }
+
     .tarjeta_contacto:hover {
         width: 200px;
         height: 200px;
-    
+
     }
 
     #sec_info img {
         width: 60px;
-    
+
     }
 
     .informacion_edu {
@@ -435,7 +437,7 @@ footer{
 
         flex-direction: column;
         align-items: center;
-        
+
 
 
     }
@@ -444,43 +446,45 @@ footer{
 
         font-size: 1rem;
         width: 90vw;
-        
+
 
     }
+
     .menu {
-        
-        width: 90vw;  
+
+        width: 90vw;
     }
 
 
 }
+
 @media screen and (max-width:760px) {
 
     .profile_descripcion {
 
-       
+
         font-size: 1.2rem;
-    
-    
+
+
     }
-    
+
     .menu {
-        
-        width: 90vw;  
+
+        width: 90vw;
     }
-    
+
     .menu a {
         display: inline-block;
         width: 100px;
-    
-        
+
+
         font-size: 1rem;
-            
-       
+
+
     }
-    
+
     .btn:hover {
-    
+
         transition-duration: 1000ms;
         color: rgb(212, 131, 24);
         font-size: 1.5rem;
@@ -491,14 +495,14 @@ footer{
 
         width: 250px;
         height: 250px;
-        
+
         margin-bottom: 5px;
         font-size: .8rem;
-    
+
     }
-    
+
     .item_edu img {
-    
+
         width: 180px;
         border-radius: 100px;
         margin-top: 25px;
@@ -513,8 +517,6 @@ footer{
     .sec-description {
         flex-direction: column;
         justify-content: space-evenly;
-        
-
     }
 
     #img_profile {
@@ -529,13 +531,13 @@ footer{
 
         width: 100px;
         height: 100px;
-       font-size: .3rem;
-    
+        font-size: .3rem;
+
     }
 
     #sec_info img {
         width: 60px;
-    
+
     }
 
     .informacion_edu {
@@ -548,16 +550,16 @@ footer{
 
         flex-direction: column;
         align-items: center;
-
-
     }
 
     .item_exp {
 
         font-size: .8rem;
-       
-
     }
 
+    footer {
 
+        font-size: .8rem;
+
+    }
 }
