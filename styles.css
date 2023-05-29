@@ -5,41 +5,43 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     
-
 }
 
 body {
-
     background-image: url("/img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-    width: 100vw;
+    
+    width:100%;
     height: 100vh;
+    
 
-    max-width: 95vw;
-
+    margin:10px 0px 10px 0px;
    
-    margin: auto;
     font-size: 25px;
 
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
 }
 
 header {
     width: 100%;
     height: 100%;
-    
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: rgba(46, 88, 167, 0.548);
     border-radius: 50px;
     padding-top: 10px;
-          
+
 }
 
 .sec-description {
@@ -48,25 +50,28 @@ header {
     align-items: center;
 }
 
-.profile_descripcion{
+.profile_descripcion {
 
-    width: 65vw; 
-    min-width: 600px;
-    text-align: center;
-
-    color: rgb(255, 255, 255);
-
-}
-.profile_descripcion strong{
-
+    width: 65vw;
     
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
 
 }
-h3{
-color: rgb(212, 131, 24);
+
+.profile_descripcion strong {
+
+    color: rgb(212, 131, 24);
 
 }
-#img_profile{
+
+h3 {
+    color: rgb(212, 131, 24);
+
+}
+
+#img_profile {
 
     border-radius: 25%;
     width: 250px;
@@ -74,125 +79,116 @@ color: rgb(212, 131, 24);
     transition-duration: 1000ms
 }
 
-#img_profile:hover{
+#img_profile:hover {
 
     border-radius: 50%;
     transition-duration: 1000ms
 }
 
-nav{
-    width: 100%;
-    height: 5vh;
-   
-    border-radius: 25px;
-    color :white;
-  
-    font-size: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+nav {
+    width: auto;
+    
 
+    border-radius: 25px;
+    color: white;
+
+    font-size: 1rem;
     margin-top: 15px;
     margin-bottom: 15px;
 
-}
-.menu{
-    width: 80vw;
-    min-width: 768px;
     display: flex;
     justify-content: space-evenly;
-   
+    
+    
 
 }
-.menu a {
 
+.menu {
+    width: 80vw;
+    
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+
+.menu a {
+    display: inline-block;
     width: 150px;
+
     border-radius: 10px;
     font-size: 1.25rem;
     text-align: center;
     transition-duration: 1000ms;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
 
-}
-
-.btn_info:hover{
-    
-    transition-duration: 1000ms;
-    color: rgb(212, 131, 24);
-    font-size: 1.5rem;
-}
-.btn_edu:hover{
-    
-    transition-duration: 1000ms;
-    color: rgb(212, 131, 24);
-    font-size: 1.5rem;
-}
-.btn_skills:hover{
-    
-    transition-duration: 1000ms;
-    color: rgb(212, 131, 24);
-    font-size: 1.5rem;
-}
-.btn_exp:hover{
-    
-    transition-duration: 1000ms;
-    color: rgb(212, 131, 24);
-    font-size: 1.5rem;
+    padding: 7px 0;
+    text-decoration: none;
+    background-color: rgba(122, 151, 206, 0.63);
 }
 
-main{
+.btn:hover {
+
+    transition-duration: 1000ms;
+    color: rgb(212, 131, 24);
+    font-size: 1.5rem;
+    width: 200px;
+}
+
+#btn_inicio{
+width: 50px;
+display: inline-block;
+    background-color: white;
+}
+
+main {
 
     width: 100%;
-   
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 50px;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+
 }
 
 
-#sec_info{
-  
+#sec_info {
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: rgba(46, 88, 167, 0.548);
     border-radius: 25px;
-
     width: 100%;
-    height: 450px;
-
-     margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
-#sec_info img{
+#sec_info img {
     width: 150px;
-    
-}
-
-.informacion_contacto{
-display: flex;
-justify-content: space-evenly;
-text-align: center;
 
 }
 
-.subtitle{
-color: white;
-text-align: center;
-margin-top: 1px;
-margin: 5px;
+.informacion_contacto {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
 }
 
-.tarjeta_contacto{
+.subtitle {
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+    margin: 5px;
+}
+
+.tarjeta_contacto {
 
     width: 250px;
     height: 250px;
@@ -208,10 +204,11 @@ margin: 5px;
     transition-duration: 1000ms;
 
 }
-.tarjeta_contacto:hover{
+
+.tarjeta_contacto:hover {
     width: 225px;
     height: 225px;
-    
+    transition-duration: 1000ms;
 }
 
 #sec_edu {
@@ -219,29 +216,30 @@ margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: rgba(46, 88, 167, 0.548);
     border-radius: 25px;
 
     width: 100%;
-    height: 550px;
+
     margin-bottom: 25px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 
-.informacion_edu{
+.informacion_edu {
 
     display: flex;
     justify-content: space-evenly;
 
 }
-.item_edu{
+
+.item_edu {
 
     width: 350px;
     height: 350px;
@@ -258,7 +256,7 @@ margin: 5px;
 
 }
 
-.item_edu img{
+.item_edu img {
 
     width: 180px;
     border-radius: 100px;
@@ -270,30 +268,31 @@ margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: rgba(46, 88, 167, 0.548);
     border-radius: 25px;
 
     width: 100%;
-    height: 450px;
+
     margin-bottom: 25px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
-.informacion_skills{
+
+.informacion_skills {
 
     display: flex;
     justify-content: space-evenly;
-   
+
 
 }
 
-.item_skills{
+.item_skills {
 
     width: 220px;
     height: 220px;
@@ -306,69 +305,242 @@ margin: 5px;
     text-align: center;
 
     font-size: small;
-    
+
+
+    margin-bottom: 5px;
 
 }
 
-.item_skills img{
+.item_skills img {
 
     width: 80px;
     border-radius: 15px;
     margin-top: 25px;
+    
 }
-#sec_exp{
+
+#sec_exp {
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-    padding-top: 20px;
-    padding-bottom: 30px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: rgba(46, 88, 167, 0.548);
     border-radius: 25px;
 
     width: 100%;
-    height: 1100px;
+    height: auto;
     margin-bottom: 25px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 
-.informacion_exp{
+.informacion_exp {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-   
+
 
 }
 
-.item_exp{
+.item_exp {
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
     background-color: rgba(122, 151, 206, 0.336);
 
-    width: 90%;
-    height: 300px;
-    margin-top: 15px;
-    font-size: medium;
+    width: 60%;
+   
+
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 15px;
+    font-size: 1rem;
     border-radius: 25px;
     color: white;
+   
 }
 
-.contenido_exp{
-width: 600px;
-
+.contenido_exp {
+    width:auto;
+    max-width: 550PX;
 }
-.item_exp img{
 
-    width: 250px;
-    border-radius: 25px;
+
+@media screen and (max-width:1100px) {
+
+
+    .sec-description {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    #img_profile {
+
+
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .tarjeta_contacto {
+
+        width: 150px;
+        height: 150px;
+       font-size: .6rem;
     
+    }
+    .tarjeta_contacto:hover {
+        width: 200px;
+        height: 200px;
+    
+    }
+
+    #sec_info img {
+        width: 60px;
+    
+    }
+
+    .informacion_edu {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacion_skills {
+
+        flex-direction: column;
+        align-items: center;
+        
+
+
+    }
+
+    .item_exp {
+
+        font-size: 1rem;
+        width: 90vw;
+        
+
+    }
+    .menu {
+        
+        width: 90vw;  
+    }
+
+
+}
+@media screen and (max-width:760px) {
+
+    .profile_descripcion {
+
+       
+        font-size: 1.2rem;
+    
+    
+    }
+    
+    .menu {
+        
+        width: 90vw;  
+    }
+    
+    .menu a {
+        display: inline-block;
+        width: 100px;
+    
+        
+        font-size: 1rem;
+            
+       
+    }
+    
+    .btn:hover {
+    
+        transition-duration: 1000ms;
+        color: rgb(212, 131, 24);
+        font-size: 1.5rem;
+        width: 200px;
+    }
+
+    .item_edu {
+
+        width: 250px;
+        height: 250px;
+        
+        margin-bottom: 5px;
+        font-size: .8rem;
+    
+    }
+    
+    .item_edu img {
+    
+        width: 180px;
+        border-radius: 100px;
+        margin-top: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+
+    .sec-description {
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+
+    }
+
+    #img_profile {
+
+
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .tarjeta_contacto {
+
+        width: 100px;
+        height: 100px;
+       font-size: .3rem;
+    
+    }
+
+    #sec_info img {
+        width: 60px;
+    
+    }
+
+    .informacion_edu {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .informacion_skills {
+
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .item_exp {
+
+        font-size: .8rem;
+       
+
+    }
+
+
 }
