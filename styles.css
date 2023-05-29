@@ -140,7 +140,7 @@ nav {
 #btn_inicio{
 width: 50px;
 display: inline-block;
-    background-color: white;
+background-color: white;
 }
 
 main {
@@ -200,8 +200,16 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     color: white;
-    font-size: medium;
+    font-size: 1rem;
     transition-duration: 1000ms;
+    
+
+}
+.tarjeta_contacto a{
+
+   text-decoration: none;
+   color: white;
+    
 
 }
 
@@ -372,6 +380,15 @@ main {
     max-width: 550PX;
 }
 
+footer{
+    width: 100%;
+    
+    padding: 10px 10px 10px 10px;
+    color:white;
+    background-color: rgba(46, 88, 167, 0.548);
+    border-radius: 25px;
+  
+}
 
 @media screen and (max-width:1100px) {
 
