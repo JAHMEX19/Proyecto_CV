@@ -93,8 +93,8 @@ nav {
     color: white;
 
     font-size: 1rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     display: flex;
     justify-content: space-evenly;
@@ -518,6 +518,14 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
     }
+    .profile_descripcion {
+
+
+        font-size: .8rem;
+        text-align: center;
+
+
+    }
 
     #img_profile {
 
@@ -560,6 +568,16 @@ footer {
     footer {
 
         font-size: .8rem;
+
+    }
+
+    .menu a {
+        display: inline-block;
+        width: 70px;
+
+
+        font-size: .7rem;
+
 
     }
 }
