@@ -59,10 +59,13 @@ header {
 }
 .profile_descripcion strong{
 
-    color: rgb(212, 131, 24);
+    
 
 }
+h3{
+color: rgb(212, 131, 24);
 
+}
 #img_profile{
 
     border-radius: 25%;
@@ -165,13 +168,13 @@ main{
     border-radius: 25px;
 
     width: 100%;
-    height: 550px;
+    height: 450px;
 
      margin-bottom: 25px;
 }
 
 #sec_info img{
-    width: 180px;
+    width: 150px;
     
 }
 
@@ -194,7 +197,7 @@ margin: 5px;
     width: 250px;
     height: 250px;
 
-    background-color: rgba(122, 151, 206, 0.336);
+    background-color: rgba(122, 151, 206, 0.63);
     border-radius: 25px;
 
     display: flex;
@@ -206,11 +209,10 @@ margin: 5px;
 
 }
 .tarjeta_contacto:hover{
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     
 }
-
 
 #sec_edu {
 
@@ -275,7 +277,7 @@ margin: 5px;
     border-radius: 25px;
 
     width: 100%;
-    height: 550px;
+    height: 450px;
     margin-bottom: 25px;
 
   display: flex;
@@ -313,4 +315,60 @@ margin: 5px;
     width: 80px;
     border-radius: 15px;
     margin-top: 25px;
+}
+#sec_exp{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(46, 88, 167, 0.548);
+    border-radius: 25px;
+
+    width: 100%;
+    height: 1100px;
+    margin-bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.informacion_exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+
+.item_exp{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    background-color: rgba(122, 151, 206, 0.336);
+
+    width: 90%;
+    height: 300px;
+    margin-top: 15px;
+    font-size: medium;
+    border-radius: 25px;
+    color: white;
+}
+
+.contenido_exp{
+width: 600px;
+
+}
+.item_exp img{
+
+    width: 250px;
+    border-radius: 25px;
+    
 }
